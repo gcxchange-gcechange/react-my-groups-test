@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-my-groups-test-client-side-solution",
+    "id": "4b02230c-4d79-44b7-b4cf-147367ea146b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-my-groups-test.sppkg"
+  }
+}
